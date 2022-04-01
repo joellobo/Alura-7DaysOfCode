@@ -33,7 +33,7 @@ public class Application {
             System.out.println(gson.toJson(je));
 
         } catch (URISyntaxException | IOException | InterruptedException e) {
-            e.printStackTrace();
+            throw new RuntimeException("Bad Things Happen!!!");
         }
     }
 }
