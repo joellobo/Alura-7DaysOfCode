@@ -64,3 +64,5 @@ Bom trabalho!
 
 Paulo Silveira
 CEO e fundador da Alura
+
+DIA 2
