@@ -33,7 +33,7 @@ public class Application {
             System.out.println(gson.toJson(je));
 
         } catch (Exception e) {
-            throw new RuntimeException("Bad Things Happen!!!");
+            throw new RuntimeException("Bad Things Happen!!!", e);
         }
     }
 }
