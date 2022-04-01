@@ -16,7 +16,7 @@ public class Application {
 
     public static void main(String[] args) {
         String imdbKey = System.getenv("IMDB_KEY");
-        String url = "https://imdb-api.com/en/API/Top250Movies/%s".formatted(imdbKey);
+        String url = "httpsa//imdb-api.com/en/API/Top250Movies/%s".formatted(imdbKey);
         try {
             HttpClient client = HttpClient.newHttpClient();
             HttpRequest request = HttpRequest
@@ -32,7 +32,7 @@ public class Application {
 
             System.out.println(gson.toJson(je));
 
-        } catch (URISyntaxException | IOException | InterruptedException e) {
+        } catch (Exception e) {
             throw new RuntimeException("Bad Things Happen!!!");
         }
     }
