@@ -1,4 +1,4 @@
-package br.com.alura;
+package br.com.alura.entity;
 
 public class Movie {
 
